@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws Adoption Center</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" style="background-color: #BAE4E5!important;">
+            <div class="container-fluid">
+                <a class="navbar-brand navLogo concert-one-regular" href="#">
+                    <img src="./images/noun-paw-1738453-01.png" alt="Happy Paws logo" width="50" height="50" class="d-inline-block align-text-top">
+                    Happy Paws
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav outfit-400">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#adoptable-pets">Adoptable Pets</a>
+                  <a class="nav-link" href="#donate">Donate</a>
+                  <a class="nav-link" href="#about-us">About Us</a>
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="outfit-400">
+        <div id="banner">
+            <img src="./images/banner_Prancheta 1.png" alt="Banner with animals" width="100%">
+        </div>
+
+        <section id="adoptable-pets">
+            <h2>Our Adoptable Pets</h2>
+            <p>Click on a pet's name to learn more about them!</p>
+            <div class="pet-card">
+                <img src="./images/sophia_sbt_puppy_leeds_dogstrust.jpg" alt="Dog 1">
+                <br>
+                <a class="concert-one-regular" href="#">Bailey</a>
+                <p>Shy and calm</p>
+                <p>4 months old</p>
+            </div>
+            <div class="pet-card">
+                <img src="./images/PetTalk-Tworabbitsindoors (1).jpg" alt="Bunnies">
+                <br>
+                <a class="concert-one-regular" href="#">Chocolate & Chip</a>
+                <p>Best buddies</p>
+                <p>1 year old</p>
+            </div>
+            <div class="pet-card">
+                <img src="./images/Stella.JPG" alt="Stella">
+                <br>
+                <a class="concert-one-regular" href="#" id="abrirAnimal">Stella</a>
+                <p>An angel on Earth</p>
+                <p>5 years old</p>
+            </div>
+            <div class="pet-card">
+                <img src="./images/gatos-dominantes3.jpg" alt="Cat">
+                <br>
+                <a class="concert-one-regular" href="#">Luna</a>
+                <p>Sweet and gentle</p>
+                <p>2 years old</p>
+            </div>
+            <div class="pet-card">
+                <img src="./images/como-fazer-seu-cachorro-feliz-1024x686.jpg" alt="Dog 2">
+                <br>
+                <a class="concert-one-regular" href="#">Jax</a>
+                <p>Loving and playful</p>
+                <p>2 years old</p>
+            </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header concert-one-regular">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Stella</h5>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./images/stella_street.JPG" alt="Stella smiling" width="300px">
+                        <p>Stella was found tied to a street lamp with her two babies, with no food or water. Luckly, she was found by one of our crew members and rescued.</p>
+                        <img src="./images/Stella2.JPG" alt="Stella smiling" width="300px">
+                        <p>
+                        She is extremely docile and quiet, and also a bit of a foodie.
+                        <br>Stella will be the perfect companion if you are looking for unconditional love.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+        <section id="about-us">
+            <h2>About Happy Paws</h2>
+            <p>We are a non-profit organization dedicated to rescuing and caring for animals in need. We believe every animal deserves a loving home.</p>
+            <p>Learn more about our mission and how you can help by visiting our <a href="#">About Us</a> or <a href="#">Donate</a> page.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to schedule an adoption appointment?</p>
+            <ul>
+                <li><b>Phone:</b> (555) 555-5555</li>
+                <li><b>Email:</b> info@happypaws.com</li>
+                <li><b>Address:</b> 123 Main Street, Anytown, CA 12345</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="outfit-400">
+        <p>&copy; 2024 Happy Paws Adoption Center</p>
+    </footer>
+
+</body>
+</html>

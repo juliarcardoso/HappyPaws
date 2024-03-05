@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white!important;
+  }
+
+.outfit-400{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar-collapse{
+    justify-content: end;
+    font-size: 1.2rem;
+}
+
+.navLogo{
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem!important;
+}
+
+.navLogo img{
+    margin-right: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #78b8b8!important;
+}
+
+p{
+    font-size: 20px;
+}
+
+#banner {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.pet-card {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;    
+}
+
+.pet-card a{
+    font-size: 25px;
+    font-weight: 500;
+    color: #636362!important;
+    text-decoration: none;
+}
+
+.pet-card a:hover{
+    color: #A588D1!important;
+}
+
+.pet-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#about-us a{
+    font-weight: 500;
+    color: #636362!important;
+    text-decoration: none;
+}
+
+#about-us a:hover{
+    color: #A588D1!important;
+}
+
+.modal-header{
+    justify-content: center;
+}
+
+.modal-title{
+    font-size: 40px;
+    color: #A588D1;
+}
+
+.modal-body img{
+    padding-bottom: 20px;
+}
+
+.modal-body p{
+font-size: 1.2rem;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+#contact ul{
+    list-style-type: none;
+}
+
+footer {
+    background-color: #75A0A0;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
