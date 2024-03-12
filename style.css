@@ -158,3 +158,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
+.contact-body {background-image: url('./images/bg.png');}
+
+#inputComment,#inputSubject,#inputEmail,#inputSpecies {
+    width: 90%;
+    padding: 8px;}
+#inputComment {height: 300px;}
+
+label { 
+    font-weight: bold;
+    font-size: 30x;	
+    color: #75A0A0;}
+
+.flex-contact {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;}
+.flex-contact > div {flex: 50%;}
