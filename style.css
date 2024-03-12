@@ -18,6 +18,25 @@ body {
   font-style: normal;
 }
 
+.buttonForm {
+  background: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px 2px ;
+    color: #78b8b8; 
+    display: block;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+}
+
+.buttonForm:hover {
+    background: #05f3f7; 
+    cursor: pointer;
+  }
+
 h1 {
     text-align: center;
     font-size: 50px;
